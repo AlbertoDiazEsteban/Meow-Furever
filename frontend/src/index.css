@@ -98,3 +98,14 @@ meter {
 :where(dialog:modal) {
   all: revert;
 }
+
+
+/* Colours vars */
+:root {
+  --light-yellow: #F0BC2F;
+  --dark-yellow: #C59000;
+  --light-gray: #D9D9D9;
+  --dark-gray: #3A3838;
+  --white: #FFFFFF;
+  --black: #000000;
+}

@@ -1,9 +1,7 @@
-
+import Banner from "./components/Banner/Banner";
 
 function LandingPage() {
-  return (
-    <div>LandingPage</div>
-  )
+  return <Banner />;
 }
 
-export default LandingPage
+export default LandingPage;

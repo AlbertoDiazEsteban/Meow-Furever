@@ -1,0 +1,52 @@
+.banner {
+    width: 100%;
+    text-align: center;
+}
+
+.banner h3 {
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+    color: var(--white);
+}
+
+.banner-image {
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .desktop {
+    display: block;
+}
+
+.banner .mobile {
+    display: none;
+}
+
+.carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--dark-gray);
+    padding: 20px 0;
+}
+
+@media (max-width: 480px) {
+    .banner .desktop {
+        display: none;
+    }
+
+    .banner .mobile {
+        display: block;
+    }
+
+    .banner-image {
+        height: 100px;
+    }
+}

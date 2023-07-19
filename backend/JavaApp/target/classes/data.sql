@@ -1,12 +1,12 @@
 INSERT INTO shelters (name, img_Url) VALUES
-  ('Patitas Protectora', '/img/shelter/shelter1.png'),
-  ('Peludos Refugio', '/img/shelter/shelter2.png'),
-  ('Asociacion Guau', '/img/shelter/shelter3.png'),
-  ('Best Friends Reserva', '/shelter/shelter4.png'),
-  ('Rabitos Refugio', '/shelter/shelter5.png'),
-  ('Meowtopia Protectora', '/shelter/shelter6.png'),
-  ('SoS Animales', '/shelter/shelter7.png'),
-  ('Meow Refugio', '/shelter/shelter8.png');
+  ('Patitas Protectora', '/assets/img/shelter/shelter1.png'),
+  ('Peludos Refugio', '/assets/img/shelter/shelter2.png'),
+  ('Asociacion Guau', '/assets/img/shelter/shelter3.png'),
+  ('Best Friends Reserva', '/assets/img/shelter/shelter4.png'),
+  ('Rabitos Refugio', '/assets/img/shelter/shelter5.png'),
+  ('Meowtopia Protectora', '/assets/img/shelter/shelter6.png'),
+  ('SoS Animales', '/assets/img/shelter/shelter7.png'),
+  ('Meow Refugio', '/assets/img/shelter/shelter8.png');
 
 INSERT INTO families (name, img_url) VALUES
    ('Gatos', '/img/cats.jpeg'),
