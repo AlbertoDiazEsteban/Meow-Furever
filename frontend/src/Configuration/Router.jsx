@@ -3,6 +3,7 @@ import LandingPage from "../components/pages/landingPage/LandingPage";
 import GalleryPage from "../components/pages/GalleryPage/GalleryPage";
 
 
+
 const Router = () => {
     return(
         <BrowserRouter>
