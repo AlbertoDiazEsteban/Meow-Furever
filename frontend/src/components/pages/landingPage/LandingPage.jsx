@@ -1,8 +1,10 @@
-
+import Dropdown from "../Dropdown/Dropdown"
 
 function LandingPage() {
   return (
-    <div>LandingPage</div>
+    <div>
+      <Dropdown/>
+    </div>
   )
 }
 
