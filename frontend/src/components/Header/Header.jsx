@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './header.css';
 import logo from './logo.png';
+import Biglogo from "./Biglogo";
+
 
 const Header = () => {
   const [isNavBarActive, setIsNavBarActive] = useState(false);
@@ -31,6 +33,7 @@ const Header = () => {
           </ul>
         </nav>
       </header>
+      <Biglogo />
     </div>
   );
 };

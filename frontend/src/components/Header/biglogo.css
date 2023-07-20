@@ -1,0 +1,44 @@
+
+.big-logo {
+    width: 100%;
+    height: 700px;
+    background-color: var(--ylw-lt);
+}
+
+.big-logo-img {
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+/* .big-logo-btn {
+    border-radius: 16px;
+    color: var(--white);
+    background-color:  var(--dk);
+    text-align: center;
+    font-family: var(--font-title);
+    font-size: 33px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin: 0 auto;
+    height: 50px;
+    letter-spacing: 3px;
+} */
+
+.big-logo a {
+    margin: 0 auto;
+    transition: all 0.3s ease 0s;
+    padding: 0;
+    margin-top: -200px;
+    z-index: 0;
+}
+
+.big-logo a:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 599px) {
+
+    .big-logo-btn {
+        font-size: 25px;
+    }
+}
