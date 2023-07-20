@@ -23,6 +23,7 @@
   .botones-desplegables {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   /* Estilos para cada botón*/ 
@@ -39,13 +40,13 @@
     font-size: 20px;
     display: flex;
     width: 240px;
+    align-items: center;
     
   }
   .dropdown-boton img{
-    margin-top: 4px;
-    margin-left: 5px; 
-    justify-content:flex-end;
-    margin-right: 1px;
+    max-width: 2rem;
+    float: right;
+    margin-left: auto;
 } 
   .dropdown-boton-dk{
     background-color:black;

@@ -1,7 +1,7 @@
 .aL-gralContainer{
     /* width: 87.1245rem;
     height: 83.22319rem; */
-    flex-shrink: 0;
+    /* flex-shrink: 0;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr; 
@@ -10,6 +10,9 @@
       ". . . ."
       ". . . ."
       ". . . .";
-    background: #FFF2C6;
+    background: #FFF2C6; */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
 }
 

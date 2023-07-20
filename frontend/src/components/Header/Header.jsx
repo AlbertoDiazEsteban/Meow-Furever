@@ -16,7 +16,7 @@ const Header = () => {
     <div>
       <header>
         <div className="header-logo">
-          <a target="_parent" to="#">
+          <a href="/">
             <img src={logo} alt="logo" />
           </a>
         </div>
@@ -27,10 +27,10 @@ const Header = () => {
         </div>
         <nav className={`header-nav-bar ${isNavBarActive ? 'active' : ''}`}>
           <ul>
-            <li><a target="_parent" to="#"><strong>Soy protectora</strong></a></li>
-            <li><a target="_parent" to="#"><strong>Quiero adoptar</strong></a></li>
-            <li><a target="_parent" to="#">Nosotros</a></li>
-            <li><a target="_parent" to="#">Contacto</a></li>
+            <li><a target="_parent" href="#"><strong>Soy protectora</strong></a></li>
+            <li><a target="_parent" href="#gallery"><strong>Quiero adoptar</strong></a></li>
+            <li><a target="_parent" href="#">Nosotros</a></li>
+            <li><a target="_parent" href="#footer">Contacto</a></li>
           </ul>
         </nav>
       </header>

@@ -8,7 +8,7 @@ function AnimalsList(){
     console.log(data);
     return (
         <>
-            <div className="aL-gralContainer">
+            <div className="aL-gralContainer" id="aL-gralContainer">
                     {data.slice(0,12).map((animals)=>(
                     <AnimalCard image={animals.imgUrl} contentTitle={animals.name} contentText={animals.type} />
                 )

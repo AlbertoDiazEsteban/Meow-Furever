@@ -1,7 +1,7 @@
 import DetailCard from '../../DetailCard/DetailCard'
 function GalleryPage() {
   return (
-    <div><DetailCard/></div>
+    <div id='gallery'><DetailCard/></div>
   )
 }
 

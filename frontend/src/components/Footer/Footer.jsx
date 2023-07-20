@@ -5,7 +5,7 @@ import "./footer.css"
 const Footer = () => {
     return (
         <>
-            <footer>
+            <footer id='footer'>
                 <div className='flex-item-left'>
                     <form>
                         <h1>¡Contáctanos!</h1>

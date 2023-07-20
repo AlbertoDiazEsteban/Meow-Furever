@@ -9,7 +9,7 @@ const Biglogo = () => {
     <div>
        <section className='big-logo'>
            <img className='big-logo-img' src={biglogo} alt=" Mew and Fur ever" />
-           <a href="#"><img className='big-logo-img' src={bigbutton} alt="boton"/></a>
+           <a href="#aL-gralContainer"><img className='big-logo-img' src={bigbutton} alt="boton"/></a>
        </section>
     </div>
   )
