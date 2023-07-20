@@ -1,70 +1,160 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![logo](https://github.com/AlbertoDiazEsteban/Meow-Furever/assets/137047542/8ad288f5-4299-4c95-a530-59a3433af4a9)
 
-In the project directory, you can run:
 
-### `npm start`
+# Meow&Furever
+Where all paws find a happy home.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A marketplace connecting animal shelters with potential adopters, facilitating the adoption of cats and dogs into loving homes. Shelters can upload images and complete information about the pets they have available. People who would like to adopt can search animals by type, characteristics, as well as location.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Authors
 
-### `npm test`
+-Alberto Diaz Esteban 
+[@AlbertoDiazEsteban](https://www.github.com/AlbertoDiazEsteban)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Fatima Patricia Garcia
+[@pgmascarini](https://www.github.com/pgmascarini)
 
-### `npm run build`
+-Tatiana Kedrova
+[@maintekgirl](https://www.github.com/maintekgirl)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-Lucía Luzán Fernández
+[@luluzan](https://www.github.com/luluzan)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-Andreina Fernandez
+[@pAndre-889 ](https://www.github.com/Andre-889 )
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Hector Ovalles
+[@devctor](https://www.github.com/devctor)
 
-### `npm run eject`
+-David Gomez Diaz
+[@DirtdiverIV](https://www.github.com/DirtdiverIV)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-Jes Hardy Matthews
+[@JesHardyM](https://www.github.com/JesHardyM)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Jimena Castellanos Díez
+[@Jimena81](https://www.github.com/Jimena81)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Front:** React 
 
-### Code Splitting
+**Back:** API Springboot, Java
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Tools in Back:** Postman
 
-### Analyzing the Bundle Size
+**Server:** Local MySQL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Organization**
 
-### Making a Progressive Web App
+Trello - SCRUM method
+[@Meow&FureverTrello](https://trello.com/b/9mV7iKvk/hackaton)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Figma - Prototype design
+[@Meow&FureverFigma](https://www.figma.com/file/EVVHBCbCDSLWJapu10Z8m5/Meow%26Furever?type=design&node-id=0%3A1&mode=design&t=FJWjeDtdmhxAG8E0-1)
 
-### Advanced Configuration
+**Communication**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Zoom - Online Reunions 
 
-### Deployment
+Discord - Information Off the Clock
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Simple intuitive UX
+- Attractive and clear UI
+- Multi-filter search function
+- Rapid loading animal images
+- Gallery page featuring animals
+- Responsive design
+
+
+## Roadmap - Going Forward
+
+- Integrate features which permit shelters to solicit donations
+
+
+
+
+
+# Meow&Furever
+Donde todas las patas encuentran un hogar feliz.
+
+Un mercado que conecta refugios de animales con posibles adoptantes, facilitando la adopción de perros y gatos en hogares cariñosos. Los refugios pueden subir imágenes e información completa sobre las mascotas que tienen disponibles. Las personas que deseen adoptar pueden buscar animales por tipo, características y ubicación.
+
+
+## Autores
+
+-AlbertoDiazEsteban 
+[@AlbertoDiazEsteban](https://www.github.com/AlbertoDiazEsteban)
+
+-Fatima Patricia Garcia
+[@pgmascarini](https://www.github.com/pgmascarini)
+
+-Tatiana Kedrova
+[@maintekgirl](https://www.github.com/maintekgirl)
+
+-Lucía Luzán Fernández
+[@luluzan](https://www.github.com/luluzan)
+
+-Andreina Fernandez
+[@pAndre-889 ](https://www.github.com/Andre-889 )
+
+-Hector Ovalles
+[@devctor](https://www.github.com/devctor)
+
+-David Gomez Diaz
+[@DirtdiverIV](https://www.github.com/DirtdiverIV)
+
+-Jes Hardy Matthews
+[@JesHardyM](https://www.github.com/JesHardyM)
+
+-Jimena Castellanos Díez
+[@Jimena81](https://www.github.com/Jimena81)
+
+
+## Tecnologías
+
+**Front:** React 
+
+**Back:** API Springboot
+
+**Herramientas en Back:** Postman
+
+**Servidor:** Local MySQL
+
+**Organización**
+
+Trello - El método SCRUM
+[@Meow&FureverTrello](https://trello.com/b/9mV7iKvk/hackaton)
+
+Figma - Diseño del prototipo
+[@Meow&FureverFigma](https://www.figma.com/file/EVVHBCbCDSLWJapu10Z8m5/Meow%26Furever?type=design&node-id=0%3A1&mode=design&t=FJWjeDtdmhxAG8E0-1)
+
+**Comunicación**
+
+Zoom - Reuniones online
+
+Discord - Información fuera de horario
+
+
+## Features
+
+- UX intuitiva y sencilla
+- Interfaz de usuario atractiva y clara
+- Función de búsqueda con varios filtros
+- Carga rápida de imágenes de animales
+- Página de galería de animales
+- Diseño adaptable
+
+
+## Roadmap - Going Forward
+
+-  Integrar funciones que permitan a los refugios solicitar donaciones
+
