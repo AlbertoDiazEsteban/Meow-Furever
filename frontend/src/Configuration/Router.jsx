@@ -4,6 +4,7 @@ import GalleryPage from "../components/pages/GalleryPage/GalleryPage";
 import Shelters from "../components/pages/shelters/Shelters";
 
 
+
 const Router = () => {
     return(
         <BrowserRouter>

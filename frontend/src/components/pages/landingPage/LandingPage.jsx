@@ -1,19 +1,19 @@
 import Banner from "../../Banner/Banner";
-import AnimalCard from "../../animalCard/AnimalCard";
-//import perrete from "../../../assets/images/perrete"
 import Header from "../../Header/Header";
+import AnimalsList from "../../animalsList/AnimalsList";
+import Dropdown from "../Dropdown/Dropdown"
 
 function LandingPage() {
   return (
     <>
-      <Header />
-      <Banner />;
-      <AnimalCard
-        contentTitle={"Panda"}
-        contentText={"Pinscher-Hembra"}
-      ></AnimalCard>
-    </>
-  );
+    <Header />
+    <Banner />;
+    <Dropdown/>
+    <AnimalsList />
+    
+  </>
+    
+  )
 }
 
 export default LandingPage;
