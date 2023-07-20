@@ -3,12 +3,13 @@
     text-align: center;
 }
 
-.banner h3 {
-    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+.banner h2 {
+    font-family: var(--font-title);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     margin: 10px 0;
     color: var(--white);
+    letter-spacing: 2px;  
 }
 
 .banner-image {
@@ -33,7 +34,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: var(--dark-gray);
+    background-color: var(--dk);
     padding: 20px 0;
 }
 
@@ -48,5 +49,14 @@
 
     .banner-image {
         height: 100px;
+    }
+
+    .banner h2 {
+        font-size: 18px;
+        letter-spacing: 1px;  
+    }
+
+    .banner-image .bottom {
+        visibility: hidden;
     }
 }

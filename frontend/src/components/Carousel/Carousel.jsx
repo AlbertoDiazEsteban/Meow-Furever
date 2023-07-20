@@ -17,9 +17,6 @@ const Carousel = ({
   const [leftAndRightDisabled, setLeftAndRightDisabled] = useState(false);
   const intervalId = useRef(null);
 
-  // useEffect with an empty array as the second parameter
-  // will run only once, when the component mounts
-  // this makes it an ideal place to trigger this functionality
   useEffect(() => {
     const slidesWithClones = [...slides];
     slidesWithClones.unshift(slidesWithClones[slidesWithClones.length - 1]);
@@ -31,13 +28,6 @@ const Carousel = ({
     }
   }, []);
 
-  // Monitor changes for the visibleSlide value and react accordingly
-  // We need to loop back to the first slide when scrolling right
-  // from the last slide (and vice-versa for the other direction)
-  // And we also need to disable the animations (by removing the
-  // transition class from the relevant element) in order to give
-  // the impression that the carousel is scrolling infinitely
-  // during our slide-cloning/swapping mechanism
   useEffect(() => {
     if (visibleSlide == stateSlides.length - 1) {
       setLeftAndRightDisabled(true);
@@ -68,12 +58,6 @@ const Carousel = ({
     }
   }, [visibleSlide]);
 
-  // Whenever the left and right arrows are disabled
-  // We want to enable them again after a specific
-  // period of time, this is to prevent problematic
-  // spamming of these controls during our clone
-  // slide-cloning/swapping mechanism
-  // Probably a better way to handle this though
   useEffect(() => {
     if (leftAndRightDisabled) {
       setTimeout(() => {
@@ -150,7 +134,9 @@ const Carousel = ({
               href="javascript:;"
               className={`scrollLeft ${leftAndRightDisabled ? "disabled" : ""}`}
             >
-              Left
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/img/banner/arrow_left.svg`}
+              />
             </a>
             <a
               onClick={!leftAndRightDisabled ? scrollRight : null}
@@ -159,7 +145,9 @@ const Carousel = ({
                 leftAndRightDisabled ? "disabled" : ""
               }`}
             >
-              Right
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/img/banner/arrow_right.svg`}
+              />
             </a>
           </>
         )}

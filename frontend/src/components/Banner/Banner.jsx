@@ -15,19 +15,27 @@ const Banner = () => {
       .then((result) =>
         setSlides(
           result.map((item, index) => {
-            console.log(index);
-            const prev = index === 0 ? result.length - 1 : index -1;
+            const prev = index === 0 ? result.length - 1 : index - 1;
             const next = index === result.length - 1 ? 0 : index + 1;
             return {
               content: () => (
                 <>
-                  <img
-                    src={`${process.env.PUBLIC_URL}${result[prev].imgUrl}`}
-                  />
-                  <img src={`${process.env.PUBLIC_URL}${item.imgUrl}`} />
-                  <img
-                    src={`${process.env.PUBLIC_URL}${result[next].imgUrl}`}
-                  />
+                  {/* conectar con pagina de protectoras */}
+                  <a href="#">
+                    <img
+                      src={`${process.env.PUBLIC_URL}${result[prev].imgUrl}`}
+                    />
+                  </a>
+
+                  <a href="#">
+                    <img src={`${process.env.PUBLIC_URL}${item.imgUrl}`} />
+                  </a>
+
+                  <a href="#">
+                    <img
+                      src={`${process.env.PUBLIC_URL}${result[next].imgUrl}`}
+                    />
+                  </a>
                 </>
               ),
             };
@@ -50,7 +58,7 @@ const Banner = () => {
         }}
       />
       <div className="carousel-wrapper">
-        <h3>Protectoras con las que trabajamos</h3>
+        <h2>Protectoras con las que trabajamos</h2>
         <div className="desktop">
           <Carousel
             slides={slides}

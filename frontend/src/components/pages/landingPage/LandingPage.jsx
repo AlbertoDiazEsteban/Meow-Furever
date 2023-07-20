@@ -1,4 +1,4 @@
-import Banner from "./components/Banner/Banner";
+import Banner from "../../Banner/Banner";
 
 function LandingPage() {
   return <Banner />;
