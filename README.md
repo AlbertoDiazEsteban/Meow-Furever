@@ -1,5 +1,5 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![logo](https://github.com/AlbertoDiazEsteban/Meow-Furever/assets/137047542/8ad288f5-4299-4c95-a530-59a3433af4a9)
 
 
 # Meow&Furever
@@ -9,7 +9,7 @@ A marketplace connecting animal shelters with potential adopters, facilitating t
 
 ## Authors
 
--AlbertoDiazEsteban 
+-Alberto Diaz Esteban 
 [@AlbertoDiazEsteban](https://www.github.com/AlbertoDiazEsteban)
 
 -Fatima Patricia Garcia
@@ -52,10 +52,10 @@ A marketplace connecting animal shelters with potential adopters, facilitating t
 **Organization**
 
 Trello - SCRUM method
-[@Meow&ForeverTrello](https://trello.com/b/9mV7iKvk/hackaton)
+[@Meow&FureverTrello](https://trello.com/b/9mV7iKvk/hackaton)
 
 Figma - Prototype design
-[@Meow&Furever](https://www.figma.com/file/EVVHBCbCDSLWJapu10Z8m5/Meow%26Furever?type=design&node-id=0%3A1&mode=design&t=FJWjeDtdmhxAG8E0-1)
+[@Meow&FureverFigma](https://www.figma.com/file/EVVHBCbCDSLWJapu10Z8m5/Meow%26Furever?type=design&node-id=0%3A1&mode=design&t=FJWjeDtdmhxAG8E0-1)
 
 **Communication**
 
@@ -131,8 +131,10 @@ Un mercado que conecta refugios de animales con posibles adoptantes, facilitando
 **Organización**
 
 Trello - El método SCRUM
+[@Meow&FureverTrello](https://trello.com/b/9mV7iKvk/hackaton)
 
 Figma - Diseño del prototipo
+[@Meow&FureverFigma](https://www.figma.com/file/EVVHBCbCDSLWJapu10Z8m5/Meow%26Furever?type=design&node-id=0%3A1&mode=design&t=FJWjeDtdmhxAG8E0-1)
 
 **Comunicación**
 
