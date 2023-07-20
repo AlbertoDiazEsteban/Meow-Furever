@@ -4,11 +4,11 @@ function AnimalCard(props) {
   return (
     <>
       <div className="aC-cardContainer">
+          <img src='/imgs/perrete.png' alt='perrinchi'/>
           <img id="aC-imgContainer" src= {props.image} alt="perrete"/>
-          <p>Hola</p>
-        <div className="ac-cardText">
-          <h3 className={props.title}>{props.contentTitle}</h3>
-          <hr />
+          <div className="ac-cardText">
+            <h3 className={props.title}>{props.contentTitle}</h3>
+            <hr />
           <p className={props.text}>{props.contentText}</p>
         </div>
         
