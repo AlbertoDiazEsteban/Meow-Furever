@@ -1,0 +1,11 @@
+.ac-cardText{
+    width: 300px;
+    padding: 25px;
+    background-color: #f0bc2f;
+    margin: 25px;
+    text-align: center;
+}
+.aC-cardContainer{
+    display: flex;
+    flex-direction: column;
+}

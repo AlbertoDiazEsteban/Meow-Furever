@@ -1,13 +1,19 @@
 import Header from "../../Header/Header"
+import Banner from "../../Banner/Banner";
+import AnimalCard from "../../animalCard/AnimalCard";
+//import perrete from "../../../assets/images/perrete"
 
 function LandingPage() {
   return (
     <>
-      <Header />
-      <div>LandingPage</div>
+      <Header />;
+      <Banner />;
+      <AnimalCard
+        contentTitle={"Panda"}
+        contentText={"Pinscher-Hembra"}
+      ></AnimalCard>
     </>
-    
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;
