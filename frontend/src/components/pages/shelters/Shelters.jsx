@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Shelters.css";
-import Header from "../../Header/Header";
 import Banner from "../../Banner/Banner";
 
 function Shelters() {
@@ -18,7 +17,6 @@ function Shelters() {
 
   return (
     <>
-      <Header />
       <Banner shortMode={true} />
       {shelters.length === 0 ? (
         <p>Loading ...</p>

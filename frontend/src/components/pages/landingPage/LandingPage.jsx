@@ -5,7 +5,7 @@ import Dropdown from "../Dropdown/Dropdown"
 function LandingPage() {
   return (
     <>
-      <Banner />;
+      <Banner />
       <Dropdown/>
       <AnimalsList />
     </>
