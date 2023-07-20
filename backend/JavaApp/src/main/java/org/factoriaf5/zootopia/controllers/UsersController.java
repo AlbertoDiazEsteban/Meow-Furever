@@ -48,7 +48,7 @@ public class UsersController {
     if (ok) {
       return "User with id " + id + " deleted";
     } else {
-      return "Error, we have a problem and cant deliver" + id + "que te follen";
+      return "Error, we have a problem and cant deliver" + id + "sorry";
     }
   }
 

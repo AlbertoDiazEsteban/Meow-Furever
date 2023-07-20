@@ -40,18 +40,6 @@ public class UsersService {
     }
 
 
-
-    /*public Users updateById(Users request, Long id) {
-        Users user = usersRepository.findById(id).get();
-
-        user.setUsername(request.getUsername());
-        user.setPassword(request.getPassword());
-        user.setId(request.getId());
-
-        return user;
-    }*/
-
-
     public Boolean deleteUser(Long id) {
         try {
             usersRepository.deleteById(id);
@@ -62,12 +50,5 @@ public class UsersService {
             return false;
         }
     }
-    /**public Boolean deleteUser(Long id) {
-        try {
-            usersRepository.deleteById(id);
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
-    }*/
+
 }

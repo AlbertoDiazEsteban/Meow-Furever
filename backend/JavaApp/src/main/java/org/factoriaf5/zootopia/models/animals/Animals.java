@@ -1,7 +1,7 @@
 package org.factoriaf5.zootopia.models.animals;
 import org.factoriaf5.zootopia.models.families.Families;
 import org.factoriaf5.zootopia.models.continents.Continents;
-import org.factoriaf5.zootopia.models.shelters.Shelters; // Importa la entidad Shelters
+import org.factoriaf5.zootopia.models.shelters.Shelters;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
@@ -33,9 +33,9 @@ public class Animals {
     @JoinColumn(name = "continents_id")
     private Continents continent;
 
-    @ManyToOne // Relación many-to-one con Shelters
-    @JoinColumn(name = "shelter_id") // Nombre de la columna que hace referencia al ID del refugio
-    private Shelters shelter; // Variable para guardar la referencia al refugio
+    @ManyToOne
+    @JoinColumn(name = "shelter_id")
+    private Shelters shelter;
 
     @Column(name = "date")
     private java.sql.Date date;
@@ -43,7 +43,7 @@ public class Animals {
     @Column(name = "img_url")
     private String imgUrl;
 
-    // Resto de getters y setters
+
 
     public Shelters getShelter() {
         return shelter;
