@@ -1,9 +1,7 @@
-
+import Footer from  "../Footer/Footer";
 
 function LandingPage() {
-  return (
-    <div>LandingPage</div>
-  )
+  return <Footer />;
 }
 
 export default LandingPage
