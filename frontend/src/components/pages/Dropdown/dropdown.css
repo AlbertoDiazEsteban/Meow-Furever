@@ -2,7 +2,7 @@
 
 /* Estilos para el contenedor principal */
 .dropdown_container {
-    background-color: var(--ylw-dk);
+    background-color:#c59000;
     text-align: center;
     padding: 20px;
     font-family: var(--font-title);
@@ -27,8 +27,8 @@
   
   /* Estilos para cada botón*/ 
   .dropdown-boton {
-    background-color: var(--white);
-    color: var(--dk);
+    background-color:white;
+    color:black;
     padding: 10px 20px;
     margin: 5px;
     border: none;
@@ -48,8 +48,8 @@
     margin-right: 1px;
 } 
   .dropdown-boton-dk{
-    background-color: var(--dk);
-    color: var(--white);
+    background-color:black;
+    color:white;
     padding: 10px 20px;
     margin: 5px;
     border: none;
