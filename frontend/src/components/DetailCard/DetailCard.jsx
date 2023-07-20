@@ -2,7 +2,7 @@ import './detailCard.css'
 
 export default function DetailCard() {
   return (
-    <section>
+    <section className='animal-detail-container'>
       <div className='card-gallery'>
         <div className='image-cover'>
           <img src='/foto4.jpg' alt='Dog portrait' />

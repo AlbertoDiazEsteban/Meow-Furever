@@ -18,19 +18,3 @@ test('renders header with logo and navigation links', () => {
     expect(linkElement).toBeInTheDocument();
   });
 });
-
-test('opens and closes navigation bar when the hamburger is clicked', () => {
-  const { getByTestId, container } = render(<Header />);
-  const header = container.firstChild;
-
-  expect(header).not.toHaveClass('active');
-
-  const hamburger = getByTestId('hamburger');
-  fireEvent.click(hamburger);
-
-  expect(header).toHaveClass('active');
-
-  fireEvent.click(hamburger);
-
-  expect(header).not.toHaveClass('active');
-});

@@ -7,6 +7,8 @@ header {
     justify-content: space-between;
     padding: 0 100px;
     position: fixed;
+    top: 0;
+    z-index: 99;
 }
 
 .header-logo a img {
@@ -62,7 +64,10 @@ header {
 }
 
 @media only screen and (max-width: 900px) {
-    
+    .header {
+        padding: 0 30px;
+        margin-top: -30px;
+    }
     .header-hamburger {
         display: block;
         width: 30px;
@@ -102,12 +107,14 @@ header {
         width: 100vw;
         transition: 0.5s;
         overflow: hidden;
-        background: linear-gradient(180deg, #f7d987 0%, #FFF2C6 100%);
+        background: linear-gradient(180deg, #f7d987ad 0%, #fff2c68b 100%);
+        backdrop-filter: blur(10px);
     }
 
     .header-nav-bar.active {
         height: 210px;
-        background: linear-gradient(180deg, #f7d987 0%, #FFF2C6 100%);
+        background: linear-gradient(180deg, #f7d987ad 0%, #fff2c68b 100%);
+        backdrop-filter: blur(10px);
     }
 
     .header-nav-bar ul {
