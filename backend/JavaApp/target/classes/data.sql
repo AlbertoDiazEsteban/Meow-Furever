@@ -1,4 +1,4 @@
-INSERT INTO shelters (name, imgUrl) VALUES
+INSERT INTO shelters (name, img_Url) VALUES
   ('Patitas Protectora', '/img/shelter/shelter1.png'),
   ('Peludos Refugio', '/img/shelter/shelter2.png'),
   ('Asociacion Guau', '/img/shelter/shelter3.png'),
