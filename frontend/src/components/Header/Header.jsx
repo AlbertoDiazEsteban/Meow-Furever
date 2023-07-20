@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom'
 import './header.css';
 import logo from './logo.png';
 import Biglogo from "./Biglogo";
@@ -15,7 +16,7 @@ const Header = () => {
     <div>
       <header>
         <div className="header-logo">
-          <a target="_parent" href="#">
+          <a target="_parent" to="#">
             <img src={logo} alt="logo" />
           </a>
         </div>
@@ -26,10 +27,10 @@ const Header = () => {
         </div>
         <nav className={`header-nav-bar ${isNavBarActive ? 'active' : ''}`}>
           <ul>
-            <li><a target="_parent" href="#"><strong>Soy protectora</strong></a></li>
-            <li><a target="_parent" href="#"><strong>Quiero adoptar</strong></a></li>
-            <li><a target="_parent" href="#">Nosotros</a></li>
-            <li><a target="_parent" href="#">Contacto</a></li>
+            <li><a target="_parent" to="#"><strong>Soy protectora</strong></a></li>
+            <li><a target="_parent" to="#"><strong>Quiero adoptar</strong></a></li>
+            <li><a target="_parent" to="#">Nosotros</a></li>
+            <li><a target="_parent" to="#">Contacto</a></li>
           </ul>
         </nav>
       </header>
