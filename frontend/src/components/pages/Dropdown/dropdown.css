@@ -1,0 +1,75 @@
+/* Estilos para el componente CompaneroIdeal.js */
+
+/* Estilos para el contenedor principal */
+.dropdown_container {
+    background-color:#c59000;
+    text-align: center;
+    padding: 30px;
+    font-family: var(--font-title);
+    color: var(--white);
+    margin-top: 0;
+  }
+  
+  /* Estilos para el título */
+  .dropdown_container h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--white);
+    
+  }
+  
+  /* Estilos para los botones desplegables */
+  .botones-desplegables {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilos para cada botón*/ 
+  .dropdown-boton {
+    background-color: var(--white);
+    color:var(--dk);
+    padding: 5px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 240px;
+    align-items: center;
+    
+  }
+  .dropdown-boton img{
+    max-width: 2rem;
+    float: right;
+    margin-left: auto;
+} 
+  .dropdown-boton-dk{
+    background-color:black;
+    color:white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 240px;
+
+  }
+  
+  .dropdown-boton:hover {
+    background-color: var(--lt);
+  }
+
+  .dropdown-boton-dk:hover {
+    color: var(--ylw-md);
+  }
