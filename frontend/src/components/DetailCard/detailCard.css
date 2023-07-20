@@ -2,12 +2,13 @@
 body {
   background-color: #FFF2C6;
 }
-section {
+section.animal-detail-container {
   background-color: #FFF;
   font-family: 'Urbanist', sans-serif;
   margin-block-start: 40px;
   display: flex;
   flex-wrap: wrap;
+  padding: 16px;
 }
 .card-gallery {
   padding-inline: 20px;
