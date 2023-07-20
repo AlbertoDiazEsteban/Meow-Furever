@@ -1,17 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+
 .aC-cardContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    }
+    
+}
+
+.aC-cardContainer h3{
+    padding-bottom: 1rem;
+    font-family: Urbanist;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 900;
+}
 
 .aC-img {
     width: 100%;
     max-width: 300px;
     margin-bottom: 10px;
-    }
+}
 
 .ac-cardText {
     text-align: center;
@@ -21,5 +33,35 @@
     text-align: center;
     width: 300px;
     margin-bottom: 10px;
-    }
+    color: #000;
+    font-family: Urbanist;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+    .ac-ctss {
+    display: flex;
+    flex-direction: row;
+}
+
+.aC-btn {
+    background-color: #3A3838;;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    padding:0.8rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 7px;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.aC-btn:hover {
+    background-color: white;
+    color: black;
+    letter-spacing: 3px;
+    
+}

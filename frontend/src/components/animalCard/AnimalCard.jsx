@@ -9,12 +9,12 @@ function AnimalCard(props) {
           <div className="ac-cardText">
             <h3 className={props.title}>{props.contentTitle}</h3>
             <hr />
-          <p className={props.text}>{props.contentText}</p>
+          <p className={props.text} id="ac-ctss">{props.contentText}</p>
+          <button className="aC-btn" type="button"> Adoptar
+          </button>
         </div>
-        
-      </div>
+        </div>
     </>
   )
 }
-
-export default AnimalCard
+export default AnimalCard;
