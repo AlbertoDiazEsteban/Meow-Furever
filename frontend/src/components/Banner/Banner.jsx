@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import "./Banner.css";
 import Carousel from "../Carousel/Carousel";
 
-const Banner = () => {
+const Banner = ({ shortMode = false }) => {
   const [slides, setSlides] = useState([]);
   useEffect(() => {
     const requestOptions = {
@@ -21,21 +22,21 @@ const Banner = () => {
               content: () => (
                 <>
                   {/* conectar con pagina de protectoras */}
-                  <a href="#">
+                  <Link to="/shelters">
                     <img
                       src={`${process.env.PUBLIC_URL}${result[prev].imgUrl}`}
                     />
-                  </a>
+                  </Link>
 
-                  <a href="#">
+                  <Link to="/shelters">
                     <img src={`${process.env.PUBLIC_URL}${item.imgUrl}`} />
-                  </a>
+                  </Link>
 
-                  <a href="#">
+                  <Link to="/shelters">
                     <img
                       src={`${process.env.PUBLIC_URL}${result[next].imgUrl}`}
                     />
-                  </a>
+                  </Link>
                 </>
               ),
             };
@@ -57,35 +58,39 @@ const Banner = () => {
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('${process.env.PUBLIC_URL}/assets/img/banner/id1.png')`,
         }}
       />
-      <div className="carousel-wrapper">
-        <h2>Protectoras con las que trabajamos</h2>
-        <div className="desktop">
-          <Carousel
-            slides={slides}
-            speed={3000}
-            slideWidth={470}
-            slideHeight={100}
-            indicator={false}
-            manualMode
+      {!shortMode && (
+        <div>
+          <div className="carousel-wrapper">
+            <h2>Protectoras con las que trabajamos</h2>
+            <div className="desktop">
+              <Carousel
+                slides={slides}
+                speed={3000}
+                slideWidth={470}
+                slideHeight={100}
+                indicator={false}
+                manualMode
+              />
+            </div>
+            <div className="mobile">
+              <Carousel
+                slides={slides}
+                speed={3000}
+                slideWidth={310}
+                slideHeight={100}
+                indicator={false}
+                manualMode
+              />
+            </div>
+          </div>
+          <div
+            className="banner-image bottom"
+            style={{
+              backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('${process.env.PUBLIC_URL}/assets/img/banner/id2.png')`,
+            }}
           />
         </div>
-        <div className="mobile">
-          <Carousel
-            slides={slides}
-            speed={3000}
-            slideWidth={310}
-            slideHeight={100}
-            indicator={false}
-            manualMode
-          />
-        </div>
-      </div>
-      <div
-        className="banner-image bottom"
-        style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('${process.env.PUBLIC_URL}/assets/img/banner/id2.png')`,
-        }}
-      />
+      )}
     </div>
   );
 };
