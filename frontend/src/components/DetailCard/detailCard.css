@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;900&display=swap');
+body {
+  background-color: #FFF2C6;
+}
+section {
+  background-color: #FFF;
+  font-family: 'Urbanist', sans-serif;
+  margin-block-start: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-gallery {
+  padding-inline: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* max-width: 400px; */
+}
+
+.card-gallery img {
+  aspect-ratio: 4 / 4;
+  object-fit: cover;
+  width: 100%;
+  flex: 1;
+}
+
+.card-image-list img{
+  width: calc((25% - 20px) - 12px * 4);
+}
+
+.card-image-list {
+  display: flex;
+  /* justify-content: center; */
+  gap:12px;
+}
+
+.card-content {
+  flex:1;
+  padding-inline: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-block-start: 20px;
+}
+.card-content h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.card-content .content-label {
+  color: #6F6A6A;
+  font-size: 20px;
+}
+.card-content .content-name {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid #FFFBFC;
+  background: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  padding: 12px;
+}
+
+.card-content .content-field {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500px;
+  border-radius: 16px;
+  border: 1px solid #FFFBFC;
+  background: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  padding: 12px;
+}
+
+.card-content button {
+  border-radius: 16px;
+  color: #FFFFFF;
+  background: #3A3838;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 12px;
+}
+
+@media (min-width: 768px) { 
+  .card-gallery {
+    flex: 1;
+    /* justify-content: space-between; */
+    max-width: 800px;
+  }
+  section {
+    /* padding: 3rem; */
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .card-content {
+    max-width: 465px;
+  }
+}
