@@ -1,8 +1,12 @@
-
+import Header from "../../Header/Header"
 
 function LandingPage() {
   return (
-    <div>LandingPage</div>
+    <>
+      <Header />
+      <div>LandingPage</div>
+    </>
+    
   )
 }
 
