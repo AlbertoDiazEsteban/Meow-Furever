@@ -1,11 +1,11 @@
 import AnimalCard from "../../animalCard/AnimalCard"
-//import perrete from "../../../assets/images/perrete"
+//import perrete from "/ims/perrete.png"
 
 
 function LandingPage() {
   return (
     <div>
-        <AnimalCard  contentTitle={"Panda"} contentText={"Pinscher-Hembra"}></AnimalCard>
+        <AnimalCard contentTitle={"Panda"} contentText={"Pinscher-Hembra"}></AnimalCard>
     </div>
   )
 }
