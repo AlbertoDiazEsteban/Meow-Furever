@@ -8,10 +8,10 @@ export default function DetailCard() {
           <img src='/foto4.jpg' alt='Dog portrait' />
         </div>
         <div className='card-image-list'>
-          <img src='/foto4.jpg' alt='Dog portrait' />
-          <img src='/foto4.jpg' alt='Dog portrait' />
-          <img src='/foto4.jpg' alt='Dog portrait' />
-          <img src='/foto4.jpg' alt='Dog portrait' />
+          <img src='/assets/foto2.png' alt='Dog portrait' />
+          <img src='/assets/foto3.png' alt='Dog portrait' />
+          <img src='/assets/foto1.png' alt='Dog portrait' />
+          <img src='/assets/foto5.png' alt='Dog portrait' />
         </div>
       </div>
 
