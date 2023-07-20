@@ -1,12 +1,12 @@
-import Header from "../../Header/Header"
 import Banner from "../../Banner/Banner";
 import AnimalCard from "../../animalCard/AnimalCard";
 //import perrete from "../../../assets/images/perrete"
+import Header from "../../Header/Header";
 
 function LandingPage() {
   return (
     <>
-      <Header />;
+      <Header />
       <Banner />;
       <AnimalCard
         contentTitle={"Panda"}
