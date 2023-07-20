@@ -43,7 +43,7 @@ A marketplace connecting animal shelters with potential adopters, facilitating t
 
 **Front:** React 
 
-**Back:** API Springboot
+**Back:** API Springboot, Java
 
 **Tools in Back:** Postman
 
@@ -52,8 +52,9 @@ A marketplace connecting animal shelters with potential adopters, facilitating t
 **Organization**
 
 Trello - SCRUM method
-
+[@Meow&ForeverTrello](https://trello.com/b/9mV7iKvk/hackaton)
 Figma - Prototype design
+[@Meow&Furever](https://www.figma.com/file/EVVHBCbCDSLWJapu10Z8m5/Meow%26Furever?type=design&node-id=0%3A1&mode=design&t=FJWjeDtdmhxAG8E0-1)
 
 **Communication**
 
