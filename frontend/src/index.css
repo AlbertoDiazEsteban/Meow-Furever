@@ -8,7 +8,7 @@
     - The "symbol *" part is to solve Firefox SVG sprite bug
     - The "html" element is excluded, otherwise a bug in Chrome breaks the CSS hyphens property (https://github.com/elad2412/the-new-css-reset/issues/36)
  */
- *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
   all: unset;
   display: revert;
 }
@@ -21,12 +21,15 @@
 }
 
 /* Reapply the pointer cursor for anchor tags */
-a, button {
+a,
+button {
   cursor: revert;
 }
 
 /* Remove list styles (bullets/numbers) */
-ol, ul, menu {
+ol,
+ul,
+menu {
   list-style: none;
 }
 
@@ -42,7 +45,8 @@ table {
 }
 
 /* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
-input, textarea {
+input,
+textarea {
   -webkit-user-select: auto;
 }
 
@@ -96,5 +100,31 @@ meter {
 
 /* Revert Modal native behavior */
 :where(dialog:modal) {
-all: revert;
+  all: revert;
+}
+
+/* Tipografía Roboto slab - TITULOS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Tipografía Urbanist - TEXTO NORMAL */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+
+:root {
+  /* Amarillo muy claro */
+  --ylw-lt: #FFF2C6;
+  /* Amarillo claro */
+  --ylw-md: #F0BC2F;
+  /* Amarillo oscuro */
+  --ylw-dk: #C59000;
+  /* Gris Oscuro */
+  --dk: #3A3838;
+  /* Blanco */
+  --white: #FFFFFF;
+  /* Gris Claro */
+  --lt: #D9D9D9;
+  /* Fuente para el título */
+  --font-title: 'Urbanist', sans-serif;
+  /* Fuente para el texto */
+  --font-text: 'Roboto Slab', serif;
 }

@@ -7,7 +7,7 @@ function LandingPage() {
   return (
     <>
     <Header />
-    <Banner />;
+    <Banner />
     <Dropdown/>
     <AnimalsList />
     
