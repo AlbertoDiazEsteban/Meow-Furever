@@ -3,13 +3,13 @@ import AnimalCard from '../animalCard/AnimalCard';
 import AnimalCardService from '../../Configuration/AnimalCardService';
 
 function AnimalsList(){
-    const data = AnimalCardService ().sort((a, b) => b.family.imageUrl - a.family.imageUrl);
+    const data = AnimalCardService ().sort((a, b) => b.family.imgUrl - a.family.imgUrl);
     console.log(data);
     return (
         <>
             <div className="aL-gralContainer">
                     {data.slice(0,12).map((animals)=>(
-                    <AnimalCard image={animals.family.imageUrl} contentTitle={animals.name} contentText={animals.type} />
+                    <AnimalCard image={animals.family.imgUrl} contentTitle={animals.name} contentText={animals.type} />
                 )
                 )}
             </div>
